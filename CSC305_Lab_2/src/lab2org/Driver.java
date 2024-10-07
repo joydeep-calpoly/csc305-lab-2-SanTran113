@@ -20,7 +20,7 @@ class Driver {
 		
 		try {
 //		input = read file (input is a map?)
-		String js = new String("input1.json"); //get loc of file
+		String js = new String("input3.json"); //get loc of file
 		FileReader file = new FileReader(js); // open file as file ob
 		JSONTokener token = new JSONTokener(file);
 		

@@ -1,4 +1,4 @@
-package lab2org;
+package lab2Jackson;
 
 class Award {
 	private final String name;

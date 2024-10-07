@@ -1,4 +1,4 @@
-package lab2org;
+package lab2Jackson;
 
 import java.util.List;
 
@@ -13,7 +13,7 @@ class Person {
 		this.awards = awards;
 	};
 	
-	String getPersonName() {
+	String getName() {
 		return name;
 	}
 	
