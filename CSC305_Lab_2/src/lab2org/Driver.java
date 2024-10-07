@@ -24,7 +24,7 @@ class Driver {
 		FileReader file = new FileReader(js); // open file as file ob
 		JSONTokener token = new JSONTokener(file);
 		
-		 jo = new JSONObject(token);
+		jo = new JSONObject(token);
 	
 		joName = (String) jo.get("name");
 		joKnownFor = (JSONArray) jo.get("knownFor");
@@ -55,8 +55,6 @@ class Driver {
 			}
 		}
 		
-		
-		
 		Person p = new Person(joName, knownList, awardList);
 		
 		System.out.println(p.getPersonName());
@@ -66,11 +64,10 @@ class Driver {
 			System.out.println(p.getKnownFor().get(gk));
 		}
 		
-		System.out.println("\n Awards:");
+		System.out.println("\nAwards:");
 		for (int a = 0; a < p.getawards().size(); a++) {
 			System.out.println(p.getawards().get(a).getAwardName() + ", " + p.getawards().get(a).getAwardYear());
 		}
-		
 		
 	}
 }
