@@ -3,9 +3,9 @@ package lab2org;
 import java.util.List;
 
 class Person {
-	private final String name;
-	private final List<String> knownFor;
-	private final List<Award> awards;
+	private String name;
+	private List<String> knownFor;
+	private List<Award> awards;
 	
 	Person(String name, List<String> knownFor, List<Award> awards) {
 		this.name = name;

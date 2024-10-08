@@ -1,8 +1,8 @@
 package lab2org;
 
 class Award {
-	private final String name;
-	private final Integer year;
+	private String name;
+	private Integer year;
 	
 	Award (String name, Integer year) {
 		this.name = name;
